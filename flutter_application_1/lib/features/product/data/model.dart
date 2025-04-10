@@ -3,22 +3,14 @@ import 'package:equatable/equatable.dart';
 
 class ProductModel extends Product {
   const ProductModel({
-    required int id,
-    required String title,
-    required double price,
-    required String description,
-    required String category,
-    required String image,
-    required Rating rating,
-  }) : super(
-          id: id,
-          title: title,
-          price: price,
-          description: description,
-          category: category,
-          image: image,
-          rating: rating,
-        );
+    required super.id,
+    required super.title,
+    required super.price,
+    required super.description,
+    required super.category,
+    required super.image,
+    required super.rating,
+  });
 
   factory ProductModel.fromJson(Map<String, dynamic> json) {
     return ProductModel(

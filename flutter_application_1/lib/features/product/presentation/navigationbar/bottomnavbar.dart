@@ -1,5 +1,4 @@
 
-
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/features/product/presentation/navigationbar/nav_bar.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -36,8 +35,7 @@ class BottomNavBar extends StatelessWidget {
                 activeIcon: Icon(Icons.home),
                 label: 'Home',
               ),
-          
-              
+        
               BottomNavigationBarItem(
                 icon: Icon(Icons.shopping_cart_outlined),
                 activeIcon: Icon(Icons.shopping_cart),

@@ -24,10 +24,10 @@ class CategoriesSection extends StatelessWidget {
 
   IconData _getCategoryIcon(String title) {
     final lowercaseTitle = title.toLowerCase();
-    if (lowercaseTitle.contains('electronics')) return Icons.devices;
-    if (lowercaseTitle.contains('jewelry')) return Icons.diamond;
-    if (lowercaseTitle.contains('men')) return Icons.man;
-    if (lowercaseTitle.contains('women')) return Icons.woman;
+    if (lowercaseTitle.contains('Malefashion')) return Icons.male;
+    if (lowercaseTitle.contains('Femalefashion')) return Icons.female;
+    if (lowercaseTitle.contains('Corporateweares')) return Icons.male_outlined;
+    if (lowercaseTitle.contains('Nativewears')) return Icons.female_outlined;
     return Icons.category;
   }
 
